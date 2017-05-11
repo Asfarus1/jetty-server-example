@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Привет</title>
+</head>
+<body>
+<h1>Регистрация</h1>
+<form method="post" action="signup">
+    <span>Логин</span>
+    <input type="text" name="login"><br>
+    <span>Пароль</span>
+    <input type="text" name="pass"><br>
+    <span>email</span>
+    <input type="text" name="email"><br>
+    <input type="submit" value="Зарегистрироваться">
+</form>
+<hr>
+<h1>Авторизация</h1>
+<form method="post" action="signin">
+    <span>Логин</span>
+    <input type="text" name="login"><br>
+    <span>Пароль</span>
+    <input type="text" name="pass"><br>
+    <input type="submit" value="Войти">
+</form>
+<form method="post" action="shutdown?token=stopserver">
+    <input type="submit" value="Остановить сервер">
+</form>
+</body>
+</html>
